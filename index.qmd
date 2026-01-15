@@ -1,11 +1,26 @@
 ---
-title: "temp_website"
+title: "My Quarto Website"
+format: html
 ---
 
-This is a Quarto website.
+# Welcome to My Website 👋
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hi! I'm Ming Jun, an aspiring data enthusiast and R programmer.
+I love exploring data, building websites and applications, and sharing ideas through multiple types of coding.
 
-```{r}
-1 + 1
-```
+---
+
+## About Me
+
+Here's a photo of me:
+
+![](images/me.jpg){width=200px}
+
+Or check out a short intro video:
+
+<video width="320" height="240" controls>
+  <source src="videos/intro.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---

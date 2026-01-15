@@ -2,9 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "temp_website",
+    "title": "My Quarto Website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hi! I’m Ming Jun, an aspiring data enthusiast and R programmer. I love exploring data, building websites and applications, and sharing ideas through multiple types of coding.\n\n\n\nHere’s a photo of me:\n\nOr check out a short intro video:\n\n\nYour browser does not support the video tag."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "My Quarto Website",
+    "section": "",
+    "text": "Here’s a photo of me:\n\nOr check out a short intro video:\n\n\nYour browser does not support the video tag."
   },
   {
     "objectID": "about.html",
