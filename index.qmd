@@ -1,8 +1,6 @@
 ---
-title: "My Quarto Website"
-format:
-  html:
-    show-title: false
+format: html
+
 ---
 
 # Welcome to My Website 👋

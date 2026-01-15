@@ -1,7 +1,5 @@
 ---
-title: "data"
-format:
-  html:
-    show-title: false
+format: html
+
 ---
 

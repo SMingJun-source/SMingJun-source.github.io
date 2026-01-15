@@ -1,12 +1,33 @@
 ---
-title: "About"
-format:
-  html:
-    show-title: false
+format: html
+
 ---
 
-About this site
+# About Me
 
-```{r}
-1 + 1
-```
+This page shares a few experiences that reflect my learning journey and hobbies.
+
+---
+
+## Learning Notes
+
+I take **structured learning notes** to reinforce what I study. For example:
+
+- **R, Python / Tableau & Data Analysis:** Notes on data wrangling, visualization, and modeling help me revisit concepts quickly during projects.  
+- **Quarto & Web Development:** Step-by-step guides I created while learning website deployment and Git workflow are invaluable for reference.  
+
+Keeping notes helps me **apply knowledge practically**, whether in coding projects or academic work.
+
+---
+
+## Hobbies & Interests
+
+Outside of academics, I enjoy:
+
+- **Traveling:** Experiencing Malaysia and Thailand, trying new cuisines, and finding inspiration in new environments.  
+- **Movies & Music:** Watching anime from various genres and discovering new soundtracks.  
+
+These hobbies keep me **creative and balanced**, often inspiring problem-solving and project ideas.
+
+---
+

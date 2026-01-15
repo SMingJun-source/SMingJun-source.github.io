@@ -1,7 +1,60 @@
----
-title: "project"
-format:
-  html:
-    show-title: false
+# My Projects
+
+Here’s a selection of some of the key projects I’ve worked on during my studies. Each showcases my skills in web development, databases, and cloud computing.
+
 ---
 
+## Web Systems and Technologies
+
+<div class="card">
+
+**Description:**  
+Developed a dynamic web application using HTML, CSS, JavaScript, and backend technologies. The project demonstrates responsive design, user authentication, and integration with APIs.
+
+**Highlights:**  
+- Implemented a RESTful API to fetch and display data dynamically.  
+- Designed responsive UI that adapts to mobile and desktop screens.  
+- Learned full-stack development workflow including version control with Git and deployment.
+
+**Screenshot / Demo:**  
+<img src="images/web_system.jpg" alt="Web Systems Project" width="400px" style="border-radius:8px; box-shadow: 2px 2px 8px rgba(195,120,40,0.4);" />
+
+</div>
+
+---
+
+## Database Systems
+
+<div class="card">
+
+**Description:**  
+Built a relational database system to manage and query complex datasets efficiently. Focused on data modeling, SQL queries, and database normalization.
+
+**Highlights:**  
+- Designed ER diagrams and implemented relational schema in MySQL/MariaDB.  
+- Created stored procedures and triggers to automate tasks.  
+- Optimized queries for performance and reliability.  
+
+**Screenshot / Diagram:**  
+<img src="images/db_sys.jpg" alt="Database Systems Project" width="400px" style="border-radius:8px; box-shadow: 2px 2px 8px rgba(195,120,40,0.4);" />
+
+</div>
+
+---
+
+## Cloud Computing
+
+<div class="card">
+
+**Description:**  
+Implemented a cloud-based solution using virtual machines, containerization, and cloud storage. The project emphasizes scalability, security, and deployment automation.
+
+**Highlights:**  
+- Deployed applications on cloud platforms (AWS/Azure/GCP).  
+- Used Docker containers to ensure reproducibility and easy scaling.  
+- Configured continuous deployment pipelines to streamline updates.  
+
+**Screenshot / Architecture Diagram:**  
+<img src="images/cloud_computing.jpg" alt="Cloud Computing Project" width="400px" style="border-radius:8px; box-shadow: 2px 2px 8px rgba(195,120,40,0.4);" />
+
+</div>

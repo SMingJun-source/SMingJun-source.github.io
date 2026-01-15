@@ -1,13 +1,13 @@
 ---
-title: "Reflection on the use of GenAI"
-format:
-  html:
-    show-title: false
+format: html
+
 ---
 
 # Reflection on the Use of GenAI
 
 For this assessment, I used **ChatGPT**, a generative AI (GenAI) tool developed by OpenAI. I chose ChatGPT because it is versatile, easy to interact with, and capable of providing explanations, code examples, and guidance across multiple subjects.  
+
+<img src="images/typing.jpg" alt="Typing" width="400px" style="border-radius:8px; box-shadow: 2px 2px 8px rgba(195,120,40,0.4);" />
 
 ---
 
