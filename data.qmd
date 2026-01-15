@@ -90,4 +90,4 @@ Helps educators identify that encouraging practice with sample papers can be an 
 
 ## References
 
-Dataset: [Student Performance Data on Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
+Dataset: [Student Performance Data on Kaggle](https://www.kaggle.com/datasets/neurocipher/student-performance)
