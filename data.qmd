@@ -1,44 +1,89 @@
 ---
 format: html
-
 ---
 
-# Data Visualizations
-
-Here are some example visualizations using faked data to showcase basic data analysis and visualization skills in R.
-
----
-
-## 1. Sales by Product (Bar Chart)
+## 1. Hours Studied vs Performance Index
 
 ```{r}
-library(ggplot2)
+#| echo: false
+#| fig-width: 7
+#| fig-height: 5
+#| warning: false
+#| message: false
 
-# Example of sales data
-products <- c("Apples", "Milk", "Watermelons", "Coconut")
-sales <- c(150, 230, 180, 90)
-df <- data.frame(products, sales)
+library(tidyverse)
+
+# Load actual dataset
+df <- read_csv("StudentPerformance.csv")  # make sure the CSV is in the project folder
+
+# Optional: replace spaces with underscores for easier plotting
+names(df) <- gsub(" ", "_", names(df))
+
+# Scatter plot
+p1 <- ggplot(df, aes(x = Hours_Studied, y = Performance_Index)) +
+  geom_point(aes(color = Previous_Scores, size = Sleep_Hours), alpha=0.8) +
+  scale_color_gradient(low="#f4e1c1", high="#b35e0d") +
+  theme_minimal(base_family="Georgia") +
+  labs(
+    title="Hours Studied vs Performance Index",
+    x="Hours Studied",
+    y="Performance Index",
+    color="Previous Scores",
+    size="Sleep Hours"
+  ) +
+  theme(
+    plot.title = element_text(size=10, face="bold", hjust = 0.5),
+    axis.title = element_text(size=9,hjust = 0.5),
+    axis.text = element_text(size=8,hjust = 0.5)
+  )
+
+print(p1)
+```
+
+Students who study more hours generally achieve a higher Performance Index, showing a positive correlation.
+
+Previous scores also influence performance - students with higher prior scores tend to cluster at higher Performance Index values.
+
+Sleep hours affect performance subtly; students with very low or very high sleep tend to deviate slightly from the trend, suggesting balanced rest may help performance.
+
+## 2. No.of Sample papers vs Performance Index
+
+```{r}
+#| echo: false
+#| fig-width: 7
+#| fig-height: 5
+#| warning: false
+#| message: false
+
+# Aggregate Performance Index by number of sample papers
+
+df_avg <- df %>%
+group_by(Sample_Question_Papers_Practiced) %>%
+summarise(Avg_Performance = mean(Performance_Index, na.rm=TRUE))
 
 # Bar chart
-ggplot(df, aes(x=products, y=sales, fill=products)) +
-  geom_bar(stat="identity") +
-  scale_fill_manual(values=c("#e3b778", "#f4e1c1", "#b35e0d", "#f7d9a1")) +
-  theme_minimal(base_family = "Georgia") +
-  labs(title="Sales by Product", x="Product", y="Units Sold") +
-  theme(legend.position = "none", plot.title = element_text(size=16, face="bold"))
 
-# Dummy monthly revenue
+p2 <- ggplot(df_avg, aes(x = factor(Sample_Question_Papers_Practiced), y = Avg_Performance, fill = Avg_Performance)) +
+geom_bar(stat="identity") +
+scale_fill_gradient(low="#f4e1c1", high="#b35e0d") +
+theme_minimal(base_family="Georgia") +
+labs(
+title="Average Performance Index by Number of Sample Question Papers Practiced",
+x="Number of Papers Practiced",
+y="Average Performance Index"
+) +
+theme(
+plot.title = element_text(size=10, face="bold",hjust = 0.5),
+axis.title = element_text(size=9,hjust = 0.5),
+axis.text = element_text(size=8,hjust = 0.5),
+legend.position = "none"
+)
 
-months <- factor(month.abb, levels=month.abb)
-revenue <- c(500, 600, 550, 620, 700, 750, 800, 780, 720, 690, 650, 700)
-df2 <- data.frame(months, revenue)
-
-# Line chart
-
-ggplot(df2, aes(x=months, y=revenue, group=1)) +
-geom_line(color="#b35e0d", size=1.2) +
-geom_point(color="#e3b778", size=3) +
-theme_minimal(base_family = "Georgia") +
-labs(title="Monthly Revenue Trend", x="Month", y="Revenue ($)") +
-theme(plot.title = element_text(size=16, face="bold"))
+print(p2)
 ```
+
+Students who practice more sample question papers achieve higher average Performance Index, showing active preparation pays off.
+
+The improvement is more noticeable when moving from 1-2 papers to 3-4 papers, suggesting a threshold effect where consistent practice significantly boosts performance.
+
+Helps educators identify that encouraging practice with sample papers can be an effective strategy to improve overall student outcomes.

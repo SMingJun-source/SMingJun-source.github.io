@@ -14,11 +14,13 @@ I love exploring data, building websites and applications, and sharing ideas thr
 
 Here's a photo of me:
 
-<img src="images/me.jpg" alt="Ming Jun" width="200px" style="border-radius:10px;"/>
+<img src="images/me.jpg" alt="Ming Jun" width="100px" style="border-radius:10px;"/>
 
-Or check out a short intro video:
+Or check out a short video of the topics that I present such as: 
 
-{{< video https://www.youtube.com/watch?v=rphrFDf00mk width="600" height="400" >}}
+My Database System presentation
+
+{{< video https://youtu.be/oaoMl0NjwNk width="600" height="400" >}}
 
 ### Skills
 

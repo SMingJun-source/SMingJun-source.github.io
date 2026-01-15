@@ -30,7 +30,7 @@ format:
     css: styles.css
     toc: true
     toc-depth: 3
-    toc-location: left
+    toc-location: right
     show-title: false
 
 
