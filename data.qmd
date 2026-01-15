@@ -3,3 +3,42 @@ format: html
 
 ---
 
+# Data Visualizations
+
+Here are some example visualizations using dummy data to showcase basic data analysis and visualization skills in R.
+
+---
+
+## 1. Sales by Product (Bar Chart)
+
+```{r}
+library(ggplot2)
+
+# Example of sales data
+products <- c("Product A", "Product B", "Product C", "Product D")
+sales <- c(150, 230, 180, 90)
+df <- data.frame(products, sales)
+
+# Bar chart
+ggplot(df, aes(x=products, y=sales, fill=products)) +
+  geom_bar(stat="identity") +
+  scale_fill_manual(values=c("#e3b778", "#f4e1c1", "#b35e0d", "#f7d9a1")) +
+  theme_minimal(base_family = "Georgia") +
+  labs(title="Sales by Product", x="Product", y="Units Sold") +
+  theme(legend.position = "none", plot.title = element_text(size=16, face="bold"))
+
+# Dummy monthly revenue
+
+months <- factor(month.abb, levels=month.abb)
+revenue <- c(500, 600, 550, 620, 700, 750, 800, 780, 720, 690, 650, 700)
+df2 <- data.frame(months, revenue)
+
+# Line chart
+
+ggplot(df2, aes(x=months, y=revenue, group=1)) +
+geom_line(color="#b35e0d", size=1.2) +
+geom_point(color="#e3b778", size=3) +
+theme_minimal(base_family = "Georgia") +
+labs(title="Monthly Revenue Trend", x="Month", y="Revenue ($)") +
+theme(plot.title = element_text(size=16, face="bold"))
+```

@@ -65,9 +65,37 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Ming Jun's Portfolio",
+    "title": "About Me",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This page shares a few experiences that reflect my learning journey and hobbies.\n\n\n\nI take structured learning notes to reinforce what I study. For example:\n\nR, Python / Tableau & Data Analysis: Notes on data wrangling, visualization, and modeling help me revisit concepts quickly during projects.\n\nQuarto & Web Development: Step-by-step guides I created while learning website deployment and Git workflow are invaluable for reference.\n\nKeeping notes helps me apply knowledge practically, whether in coding projects or academic work.\n\n\n\n\nOutside of academics, I enjoy:\n\nTraveling: Experiencing Malaysia and Thailand, trying new cuisines, and finding inspiration in new environments.\n\nMovies & Music: Watching anime from various genres and discovering new soundtracks.\n\nThese hobbies keep me creative and balanced, often inspiring problem-solving and project ideas."
+  },
+  {
+    "objectID": "about.html#learning-notes",
+    "href": "about.html#learning-notes",
+    "title": "About Me",
+    "section": "",
+    "text": "I take structured learning notes to reinforce what I study. For example:\n\nR, Python / Tableau & Data Analysis: Notes on data wrangling, visualization, and modeling help me revisit concepts quickly during projects.\n\nQuarto & Web Development: Step-by-step guides I created while learning website deployment and Git workflow are invaluable for reference.\n\nKeeping notes helps me apply knowledge practically, whether in coding projects or academic work."
+  },
+  {
+    "objectID": "about.html#hobbies-interests",
+    "href": "about.html#hobbies-interests",
+    "title": "About Me",
+    "section": "",
+    "text": "Outside of academics, I enjoy:\n\nTraveling: Experiencing Malaysia and Thailand, trying new cuisines, and finding inspiration in new environments.\n\nMovies & Music: Watching anime from various genres and discovering new soundtracks.\n\nThese hobbies keep me creative and balanced, often inspiring problem-solving and project ideas."
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data Visualizations",
+    "section": "",
+    "text": "Here are some example visualizations using dummy data to showcase basic data analysis and visualization skills in R.\n\n\n\n\nlibrary(ggplot2)\n\n# Example of sales data\nproducts &lt;- c(\"Product A\", \"Product B\", \"Product C\", \"Product D\")\nsales &lt;- c(150, 230, 180, 90)\ndf &lt;- data.frame(products, sales)\n\n# Bar chart\nggplot(df, aes(x=products, y=sales, fill=products)) +\n  geom_bar(stat=\"identity\") +\n  scale_fill_manual(values=c(\"#e3b778\", \"#f4e1c1\", \"#b35e0d\", \"#f7d9a1\")) +\n  theme_minimal(base_family = \"Georgia\") +\n  labs(title=\"Sales by Product\", x=\"Product\", y=\"Units Sold\") +\n  theme(legend.position = \"none\", plot.title = element_text(size=16, face=\"bold\"))\n\nWarning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family\nnot found in Windows font database\nWarning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family\nnot found in Windows font database\nWarning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family\nnot found in Windows font database\n\n\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\n\n\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\n\n\n\n\n\n\n\n\n# Dummy monthly revenue\n\nmonths &lt;- factor(month.abb, levels=month.abb)\nrevenue &lt;- c(500, 600, 550, 620, 700, 750, 800, 780, 720, 690, 650, 700)\ndf2 &lt;- data.frame(months, revenue)\n\n# Line chart\n\nggplot(df2, aes(x=months, y=revenue, group=1)) +\ngeom_line(color=\"#b35e0d\", size=1.2) +\ngeom_point(color=\"#e3b778\", size=3) +\ntheme_minimal(base_family = \"Georgia\") +\nlabs(title=\"Monthly Revenue Trend\", x=\"Month\", y=\"Revenue ($)\") +\ntheme(plot.title = element_text(size=16, face=\"bold\"))\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\n\n\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database"
+  },
+  {
+    "objectID": "data.html#sales-by-product-bar-chart",
+    "href": "data.html#sales-by-product-bar-chart",
+    "title": "Data Visualizations",
+    "section": "",
+    "text": "library(ggplot2)\n\n# Example of sales data\nproducts &lt;- c(\"Product A\", \"Product B\", \"Product C\", \"Product D\")\nsales &lt;- c(150, 230, 180, 90)\ndf &lt;- data.frame(products, sales)\n\n# Bar chart\nggplot(df, aes(x=products, y=sales, fill=products)) +\n  geom_bar(stat=\"identity\") +\n  scale_fill_manual(values=c(\"#e3b778\", \"#f4e1c1\", \"#b35e0d\", \"#f7d9a1\")) +\n  theme_minimal(base_family = \"Georgia\") +\n  labs(title=\"Sales by Product\", x=\"Product\", y=\"Units Sold\") +\n  theme(legend.position = \"none\", plot.title = element_text(size=16, face=\"bold\"))\n\nWarning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family\nnot found in Windows font database\nWarning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family\nnot found in Windows font database\nWarning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family\nnot found in Windows font database\n\n\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\n\n\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\n\n\n\n\n\n\n\n\n# Dummy monthly revenue\n\nmonths &lt;- factor(month.abb, levels=month.abb)\nrevenue &lt;- c(500, 600, 550, 620, 700, 750, 800, 780, 720, 690, 650, 700)\ndf2 &lt;- data.frame(months, revenue)\n\n# Line chart\n\nggplot(df2, aes(x=months, y=revenue, group=1)) +\ngeom_line(color=\"#b35e0d\", size=1.2) +\ngeom_point(color=\"#e3b778\", size=3) +\ntheme_minimal(base_family = \"Georgia\") +\nlabs(title=\"Monthly Revenue Trend\", x=\"Month\", y=\"Revenue ($)\") +\ntheme(plot.title = element_text(size=16, face=\"bold\"))\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\nWarning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font\nfamily not found in Windows font database\n\n\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database\nWarning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :\nfont family not found in Windows font database"
   },
   {
     "objectID": "project.html",
@@ -96,26 +124,5 @@
     "title": "My Projects",
     "section": "",
     "text": "Description:\nImplemented a cloud-based solution using virtual machines, containerization, and cloud storage. The project emphasizes scalability, security, and deployment automation.\nHighlights:\n- Deployed applications on cloud platforms (AWS/Azure/GCP).\n- Used Docker containers to ensure reproducibility and easy scaling.\n- Configured continuous deployment pipelines to streamline updates.\nScreenshot / Architecture Diagram:"
-  },
-  {
-    "objectID": "about.html#learning-notes",
-    "href": "about.html#learning-notes",
-    "title": "About Me",
-    "section": "",
-    "text": "I take structured learning notes to reinforce what I study. For example:\n\nR, Python / Tableau & Data Analysis: Notes on data wrangling, visualization, and modeling help me revisit concepts quickly during projects.\n\nQuarto & Web Development: Step-by-step guides I created while learning website deployment and Git workflow are invaluable for reference.\n\nKeeping notes helps me apply knowledge practically, whether in coding projects or academic work."
-  },
-  {
-    "objectID": "about.html#hobbies-interests",
-    "href": "about.html#hobbies-interests",
-    "title": "About Me",
-    "section": "",
-    "text": "Outside of academics, I enjoy:\n\nTraveling: Experiencing Malaysia and Thailand, trying new cuisines, and finding inspiration in new environments.\n\nMovies & Music: Watching anime from various genres and discovering new soundtracks.\n\nThese hobbies keep me creative and balanced, often inspiring problem-solving and project ideas."
-  },
-  {
-    "objectID": "about.html#reflection",
-    "href": "about.html#reflection",
-    "title": "About Me",
-    "section": "",
-    "text": "Documenting learning and exploring hobbies has been central to my personal growth. This page is a snapshot of how I combine structured learning with curiosity and creativity to enrich my experiences."
   }
 ]
