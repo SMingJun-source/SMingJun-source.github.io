@@ -98,6 +98,13 @@
     "text": "Students who study more hours generally achieve a higher Performance Index, showing a positive correlation.\nPrevious scores also influence performance - students with higher prior scores tend to cluster at higher Performance Index values.\nSleep hours affect performance subtly; students with very low or very high sleep tend to deviate slightly from the trend, suggesting balanced rest may help performance."
   },
   {
+    "objectID": "data.html#no.of-sample-papers-vs-performance-index",
+    "href": "data.html#no.of-sample-papers-vs-performance-index",
+    "title": "Ming Jun's Portfolio",
+    "section": "2. No.of Sample papers vs Performance Index",
+    "text": "2. No.of Sample papers vs Performance Index\n\n\n\n\n\n\n\n\n\nStudents who practice more sample question papers achieve higher average Performance Index, showing active preparation pays off.\nThe improvement is more noticeable when moving from 1-2 papers to 3-4 papers, suggesting a threshold effect where consistent practice significantly boosts performance.\nHelps educators identify that encouraging practice with sample papers can be an effective strategy to improve overall student outcomes."
+  },
+  {
     "objectID": "project.html",
     "href": "project.html",
     "title": "My Projects",
@@ -124,12 +131,5 @@
     "title": "My Projects",
     "section": "",
     "text": "Description:\nImplemented a cloud-based solution using virtual machines, containerization, and cloud storage. The project emphasizes scalability, security, and deployment automation.\nHighlights:\n- Deployed applications on cloud platforms (AWS/Azure/GCP).\n- Used Docker containers to ensure reproducibility and easy scaling.\n- Configured continuous deployment pipelines to streamline updates.\nScreenshot / Architecture Diagram:"
-  },
-  {
-    "objectID": "data.html#no.of-sample-papers-vs-performance-index",
-    "href": "data.html#no.of-sample-papers-vs-performance-index",
-    "title": "Ming Jun's Portfolio",
-    "section": "2. No.of Sample papers vs Performance Index",
-    "text": "2. No.of Sample papers vs Performance Index\n\n\n\n\n\n\n\n\n\nStudents who practice more sample question papers achieve higher average Performance Index, showing active preparation pays off.\nThe improvement is more noticeable when moving from 1-2 papers to 3-4 papers, suggesting a threshold effect where consistent practice significantly boosts performance.\nHelps educators identify that encouraging practice with sample papers can be an effective strategy to improve overall student outcomes."
   }
 ]
