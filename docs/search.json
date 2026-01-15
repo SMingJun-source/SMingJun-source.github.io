@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "My Quarto Website",
     "section": "",
-    "text": "Hi! I’m Ming Jun, an aspiring data enthusiast and R programmer. I love exploring data, building websites and applications, and sharing ideas through multiple types of coding.\n\n\n\nHere’s a photo of me:\n\nOr check out a short intro video:\n\n\nYour browser does not support the video tag."
+    "text": "Hi! I’m Ming Jun, an aspiring data enthusiast and R programmer. I love exploring data, building websites and applications, and sharing ideas through multiple types of coding.\n\n\n\nHere’s a photo of me:\n\nOr check out a short intro video:\n\n\n\n\nR, Python, SQL\nData visualization\nWeb development (Quarto, HTML/CSS)\n\n\n\n\n\n\n\nProject\nDescription\n\n\n\n\nData Dashboard\nBuilt interactive dashboard using R Shiny\n\n\nQuarto Portfolio\nThis website!\n\n\n\n\n\n\n\n\nEmail: 2403225@singaporetech.edu.sg\nGitHub: @SMingJun-source"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "My Quarto Website",
     "section": "",
-    "text": "Here’s a photo of me:\n\nOr check out a short intro video:\n\n\nYour browser does not support the video tag."
+    "text": "Here’s a photo of me:\n\nOr check out a short intro video:\n\n\n\n\nR, Python, SQL\nData visualization\nWeb development (Quarto, HTML/CSS)\n\n\n\n\n\n\n\nProject\nDescription\n\n\n\n\nData Dashboard\nBuilt interactive dashboard using R Shiny\n\n\nQuarto Portfolio\nThis website!"
   },
   {
     "objectID": "about.html",
@@ -19,5 +19,68 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "My Quarto Website",
+    "section": "",
+    "text": "R, Python, SQL\nData visualization\nWeb development (Quarto, HTML/CSS)"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "My Quarto Website",
+    "section": "",
+    "text": "Project\nDescription\n\n\n\n\nData Dashboard\nBuilt interactive dashboard using R Shiny\n\n\nQuarto Portfolio\nThis website!"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "My Quarto Website",
+    "section": "",
+    "text": "Email: 2403225@singaporetech.edu.sg\nGitHub: @SMingJun-source"
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "For this assessment, I used ChatGPT, a generative AI (GenAI) tool developed by OpenAI. I chose ChatGPT because it is versatile, easy to interact with, and capable of providing explanations, code examples, and guidance across multiple subjects.\n\n\n\nGenAI assisted me in completing this assessment in several ways:\n\nClarifying Concepts\n\nFor example, when I was unsure about rendering a Quarto website or handling GitHub Pages deployment, ChatGPT provided step-by-step instructions with clear explanations.\n\nWriting and Editing Code\n\nChatGPT helped me write CSS for a warm retro theme, Quarto .qmd pages, and R code snippets, saving me time and reducing syntax errors.\n\nOrganizing Thoughts\n\nIt suggested ways to structure my website content, including sections for projects, skills, and personal introduction, making the final site more cohesive.\n\n\n\n\n\n\n\nTime-saving: Tasks that might take hours to research and figure out were explained quickly.\n\nAccessibility: I could ask questions anytime without needing a human tutor.\n\nLearning Aid: It provided examples that helped me understand concepts more deeply, like how Quarto renders .qmd files into HTML.\n\n\n\n\n\n\nContext limitations: Sometimes ChatGPT misunderstood the specific folder structure of my project or gave general answers that required adjustment.\n\nOver-reliance risk: While the tool gives helpful answers, I still needed to verify and adapt them, especially for code that interacts with Git or GitHub Pages.\n\nLack of human judgment: It doesn’t always know which design choices are best aesthetically — it can’t replace personal creativity.\n\n\n\n\n\nI think GenAI tools will continue to assist me in:\n\nLearning new programming concepts quickly\n\nDrafting content and documentation for projects\n\nDebugging code efficiently\n\nBrainstorming ideas for websites, reports, or creative projects\n\nI see GenAI as a partner in learning and productivity, not a replacement for my own effort or critical thinking.\n\n\n\n\nUsing GenAI has been a positive experience for this assessment. It encourages me to think more critically, ask better questions, and explore solutions efficiently. I anticipate that such tools will be invaluable in both my future studies and professional work, as long as I maintain an active role in reviewing and applying the guidance responsibly."
+  },
+  {
+    "objectID": "reflection.html#how-genai-helped-me",
+    "href": "reflection.html#how-genai-helped-me",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "GenAI assisted me in completing this assessment in several ways:\n\nClarifying Concepts\n\nFor example, when I was unsure about rendering a Quarto website or handling GitHub Pages deployment, ChatGPT provided step-by-step instructions with clear explanations.\n\nWriting and Editing Code\n\nChatGPT helped me write CSS for a warm retro theme, Quarto .qmd pages, and R code snippets, saving me time and reducing syntax errors.\n\nOrganizing Thoughts\n\nIt suggested ways to structure my website content, including sections for projects, skills, and personal introduction, making the final site more cohesive."
+  },
+  {
+    "objectID": "reflection.html#benefits-of-genai",
+    "href": "reflection.html#benefits-of-genai",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "Time-saving: Tasks that might take hours to research and figure out were explained quickly.\n\nAccessibility: I could ask questions anytime without needing a human tutor.\n\nLearning Aid: It provided examples that helped me understand concepts more deeply, like how Quarto renders .qmd files into HTML."
+  },
+  {
+    "objectID": "reflection.html#challenges-of-genai",
+    "href": "reflection.html#challenges-of-genai",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "Context limitations: Sometimes ChatGPT misunderstood the specific folder structure of my project or gave general answers that required adjustment.\n\nOver-reliance risk: While the tool gives helpful answers, I still needed to verify and adapt them, especially for code that interacts with Git or GitHub Pages.\n\nLack of human judgment: It doesn’t always know which design choices are best aesthetically — it can’t replace personal creativity."
+  },
+  {
+    "objectID": "reflection.html#future-use",
+    "href": "reflection.html#future-use",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "I think GenAI tools will continue to assist me in:\n\nLearning new programming concepts quickly\n\nDrafting content and documentation for projects\n\nDebugging code efficiently\n\nBrainstorming ideas for websites, reports, or creative projects\n\nI see GenAI as a partner in learning and productivity, not a replacement for my own effort or critical thinking."
+  },
+  {
+    "objectID": "reflection.html#additional-thoughts",
+    "href": "reflection.html#additional-thoughts",
+    "title": "Reflection on the use of GenAI",
+    "section": "",
+    "text": "Using GenAI has been a positive experience for this assessment. It encourages me to think more critically, ask better questions, and explore solutions efficiently. I anticipate that such tools will be invaluable in both my future studies and professional work, as long as I maintain an active role in reviewing and applying the guidance responsibly."
   }
 ]

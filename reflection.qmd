@@ -1,0 +1,60 @@
+---
+title: "Reflection on the use of GenAI"
+format:
+  html:
+    show-title: false
+---
+
+# Reflection on the Use of GenAI
+
+For this assessment, I used **ChatGPT**, a generative AI (GenAI) tool developed by OpenAI. I chose ChatGPT because it is versatile, easy to interact with, and capable of providing explanations, code examples, and guidance across multiple subjects.  
+
+---
+
+## How GenAI Helped Me
+
+GenAI assisted me in completing this assessment in several ways:
+
+1. **Clarifying Concepts**  
+   - For example, when I was unsure about rendering a Quarto website or handling GitHub Pages deployment, ChatGPT provided step-by-step instructions with clear explanations.  
+
+2. **Writing and Editing Code**  
+   - ChatGPT helped me write CSS for a warm retro theme, Quarto `.qmd` pages, and R code snippets, saving me time and reducing syntax errors.  
+
+3. **Organizing Thoughts**  
+   - It suggested ways to structure my website content, including sections for projects, skills, and personal introduction, making the final site more cohesive.  
+
+---
+
+## Benefits of GenAI
+
+- **Time-saving:** Tasks that might take hours to research and figure out were explained quickly.  
+- **Accessibility:** I could ask questions anytime without needing a human tutor.  
+- **Learning Aid:** It provided examples that helped me understand concepts more deeply, like how Quarto renders `.qmd` files into HTML.  
+
+---
+
+## Challenges of GenAI
+
+- **Context limitations:** Sometimes ChatGPT misunderstood the specific folder structure of my project or gave general answers that required adjustment.  
+- **Over-reliance risk:** While the tool gives helpful answers, I still needed to verify and adapt them, especially for code that interacts with Git or GitHub Pages.  
+- **Lack of human judgment:** It doesn’t always know which design choices are best aesthetically — it can’t replace personal creativity.  
+
+---
+
+## Future Use
+
+I think GenAI tools will continue to assist me in:
+
+- **Learning new programming concepts** quickly  
+- **Drafting content and documentation** for projects  
+- **Debugging code** efficiently  
+- **Brainstorming ideas** for websites, reports, or creative projects  
+
+I see GenAI as a **partner in learning and productivity**, not a replacement for my own effort or critical thinking.  
+
+---
+
+## Additional Thoughts
+
+Using GenAI has been a positive experience for this assessment. It encourages me to think more critically, ask better questions, and explore solutions efficiently. I anticipate that such tools will be invaluable in both my future studies and professional work, as long as I maintain an active role in reviewing and applying the guidance responsibly.

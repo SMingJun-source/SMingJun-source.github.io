@@ -1,18 +1,79 @@
-/* css styles */
+/* styles.css */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Georgia', serif;
   font-size: 16px;
-}
-
-p {
+  color: #3e2f1c; /* dark brown text */
+  background: linear-gradient(135deg, #f4e1c1, #e3b778); /* cream → warm amber */
   margin: 0;
   padding: 0;
-  line-height: 1.2;
 }
 
-h1,h2 {
-  font-size: 16pt;
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #3e2f1c;
 }
-h3,h4 {
-  font-size: 14pt;
+
+/* Headings */
+h1, h2 {
+  font-size: 24pt;
+  color: #b35e0d; /* warm brown/orange */
+}
+h3, h4 {
+  font-size: 18pt;
+  color: #b35e0d;
+}
+
+/* Links */
+a {
+  color: #b35e0d;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: #e87c2f;
+}
+
+/* Cards (sections like projects or posts) */
+.card {
+  background-color: rgba(255, 235, 200, 0.8); /* light warm */
+  border: 1px solid #e3b778;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 8px rgba(195, 120, 40, 0.4);
+}
+
+/* Images & videos */
+img, video {
+  border: 2px solid #e3b778;
+  border-radius: 8px;
+}
+
+/* Code chunks */
+pre, code {
+  background-color: #f4e1c1;
+  color: #3e2f1c;
+  padding: 5px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Keep Quarto vertical navbar untouched */
+/* Sidebar background */
+.q-sidebar {
+  background: linear-gradient(135deg, #f4e1c1, #e3b778) !important;
+  border-right: 1px solid rgba(195,120,40,0.3) !important; /* optional soft border */
+}
+
+/* Sidebar links */
+.q-sidebar a {
+  color: #3e2f1c !important;
+  font-weight: bold;
+}
+
+/* Sidebar link hover */
+.q-sidebar a:hover {
+  color: #b35e0d !important;
 }

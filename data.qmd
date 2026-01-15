@@ -1,0 +1,7 @@
+---
+title: "data"
+format:
+  html:
+    show-title: false
+---
+

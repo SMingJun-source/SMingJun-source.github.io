@@ -1,6 +1,8 @@
 ---
 title: "My Quarto Website"
-format: html
+format:
+  html:
+    show-title: false
 ---
 
 # Welcome to My Website 👋
@@ -14,13 +16,30 @@ I love exploring data, building websites and applications, and sharing ideas thr
 
 Here's a photo of me:
 
-![](images/me.jpg){width=200px}
+<img src="images/me.jpg" alt="Ming Jun" width="200px" style="border-radius:10px;"/>
 
 Or check out a short intro video:
 
-<video width="320" height="240" controls>
-  <source src="videos/intro.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+{{< video https://www.youtube.com/watch?v=rphrFDf00mk width="600" height="400" >}}
+
+### Skills
+
+- R, Python, SQL
+- Data visualization
+- Web development (Quarto, HTML/CSS)
+
+### Projects
+
+| Project | Description |
+|---------|-------------|
+| Data Dashboard | Built interactive dashboard using R Shiny |
+| Quarto Portfolio | This website! |
+
+---
+
+## Contact Me
+
+Email: [2403225@singaporetech.edu.sg](mailto:2403225@singaporetech.edu.sg)  
+GitHub: [@SMingJun-source](https://github.com/SMingJun-source)
 
 ---
