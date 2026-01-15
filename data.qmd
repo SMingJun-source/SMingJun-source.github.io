@@ -5,7 +5,7 @@ format: html
 
 # Data Visualizations
 
-Here are some example visualizations using dummy data to showcase basic data analysis and visualization skills in R.
+Here are some example visualizations using faked data to showcase basic data analysis and visualization skills in R.
 
 ---
 
@@ -15,7 +15,7 @@ Here are some example visualizations using dummy data to showcase basic data ana
 library(ggplot2)
 
 # Example of sales data
-products <- c("Product A", "Product B", "Product C", "Product D")
+products <- c("Apples", "Milk", "Watermelons", "Coconut")
 sales <- c(150, 230, 180, 90)
 df <- data.frame(products, sales)
 
